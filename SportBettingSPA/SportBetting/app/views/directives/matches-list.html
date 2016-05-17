@@ -1,0 +1,40 @@
+﻿<div class="bs-component">
+    <div style="z-index: 100" ng-if="allMatches.length === 0"><h1>No results!</h1></div>
+
+    <div class="panel panel-info" ng-repeat="match in allMatches">
+        <div class="panel-heading">
+            <div><small><b>{{match.Sport}}</b> / {{match.Event}}</small></div>  
+            <div class="row">
+                <div class="col-md-6 pull-left"><strong class="matchName">{{match.Name}}</strong></div>
+                <div class="col-md-3 "><i>{{match.StartDate}}</i></div>
+                <div class="col-md-3 pull-right"><b>{{match.MatchType}}</b></div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <table class="table table-bordered table-condensed" >
+                <tbody ng-repeat="bet in match.Bets">
+                    <tr>
+                        <th colspan="20">{{bet.Name}}</th>
+                        <th colspan="10" >
+                            <b class="pull-right" ng-if="bet.IsLive === true">LIVE!</b>
+                            <b class="pull-right" ng-if="bet.IsLive !== true">ON RECORD!</b>
+                        </th>
+                    </tr>
+                    <tr class="bet-preview">
+                        <td colspan="10">Odd</td>
+                        <td colspan="10">Value</td>
+                        <td colspan="10">Special value</td>
+                    </tr>
+                    <tr ng-repeat="odd in bet.Odds">
+                        <td colspan="10" >{{odd.Name}}</td>
+                        <td colspan="10">{{odd.Value}}</td>
+                        <td colspan="10">
+                            <span ng-if="odd.SpecialBetValue === null">unavailable</span>
+                            <span ng-if="odd.SpecialBetValue !== null">{{odd.SpecialBetValue}}</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

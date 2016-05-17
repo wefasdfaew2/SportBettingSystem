@@ -1,0 +1,24 @@
+﻿<div class="container">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header">
+                    <h1 id="tables">Matches available today!</h1>
+                </div>
+                <span uib-dropdown on-toggle="toggled(open)" class="pagination pull-left">
+                    <a href="" id="simple-dropdown" uib-dropdown-toggle class="btn btnView">
+                        Choose page size!
+                    </a>
+                    <ul class="dropdown-menu" uib-dropdown-menu aria-labelledby="simple-dropdown">
+                        <li ng-repeat="choice in items">
+                            <a href="" ng-click="setPageSize(choice)">{{choice}}</a>
+                        </li>
+                    </ul>
+                    <input type="text" ng-model="request.pageSize" ng-change="initPaging()" class="form-control small-number-view" />
+                </span>
+                <uib-pagination total-items="totalMatchesCount" ng-model="request.page" ng-change="initPaging()" items-per-page="request.pageSize" max-size="maxSize" class="pagination" boundary-links="true" rotate="false"></uib-pagination>
+                <div matches-directive=""></div>
+            </div>
+        </div>
+    </div>
+</div>

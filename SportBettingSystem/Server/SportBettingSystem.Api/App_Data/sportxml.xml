@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<XmlSports xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" CreateDate="2016-05-14T21:24:21.4092921Z">
+  <Sport Name="eSports" ID="2357">
+    <Event Name="League of Legends, Mid-Season Invitational" ID="18223" CategoryID="3578" IsLive="false">
+      <Match Name="SK Telecom T1 - CLG" ID="585510" StartDate="2016-05-15T05:40:00" MatchType="PreMatch">
+        <Bet Name="Map Advantage" ID="6117935" IsLive="true">
+          <Odd Name="1" ID="34307292" Value="1.11" SpecialBetValue="-1.5" />
+          <Odd Name="2" ID="88307297" Value="222.333" SpecialBetValue="-2.5" />
+        </Bet>
+        <Bet Name="Map Advantage" ID="6117936" IsLive="false">
+          <Odd Name="1" ID="34307296" Value="2.01" SpecialBetValue="-2.5" />
+          <Odd Name="2" ID="34307297" Value="1.72" SpecialBetValue="-2.5" />
+        </Bet>
+        <Bet Name="Winner Map 1" ID="6117937" IsLive="false">
+          <Odd Name="1" ID="34307300" Value="1.31" />
+          <Odd Name="2" ID="34307302" Value="3.39" />
+        </Bet>
+        <Bet Name="Winner Map 2" ID="6117938" IsLive="false">
+          <Odd Name="1" ID="34307301" Value="1.31" />
+          <Odd Name="2" ID="34307303" Value="3.39" />
+        </Bet>
+        <Bet Name="Winner Map 3" ID="6117939" IsLive="false">
+          <Odd Name="1" ID="34307304" Value="1.31" />
+          <Odd Name="2" ID="34307306" Value="3.39" />
+        </Bet>
+        <Bet Name="Winner Map 4" ID="6117940" IsLive="false">
+          <Odd Name="1" ID="34307305" Value="1.33" />
+          <Odd Name="2" ID="34307307" Value="3.26" />
+        </Bet>
+        <Bet Name="Winner Map 5" ID="6117941" IsLive="false">
+          <Odd Name="1" ID="34307310" Value="1.44" />
+          <Odd Name="2" ID="34307311" Value="2.75" />
+        </Bet>
+      </Match>
+    </Event>
+  </Sport>
+  <Sport Name="Formula 1" ID="2376">
+    <Event Name="Spanish Grand Prix, Race Matchups" ID="24366" CategoryID="5052" IsLive="false">
+      <Match Name="Daniel Ricciardo - Sebastian Vettel" ID="586052" StartDate="2016-05-15T12:00:00" MatchType="PreMatch">
+        <Bet Name="Head to Head Matchups" ID="6121530" IsLive="false">
+          <Odd Name="1" ID="34336162" Value="1.81" />
+          <Odd Name="2" ID="34336167" Value="2.06" />
+        </Bet>
+      </Match>
+      <Match Name="Carlos Sainz - Fernando Alonso" ID="586053" StartDate="2016-05-15T12:00:00" MatchType="PreMatch">
+        <Bet Name="Head to Head Matchups" ID="6121536" IsLive="false">
+          <Odd Name="1" ID="34336159" Value="1.79" />
+          <Odd Name="2" ID="34336164" Value="2.08" />
+        </Bet>
+      </Match>
+      <Match Name="Lewis Hamilton - Nico Rosberg" ID="586054" StartDate="2016-05-15T12:00:00" MatchType="PreMatch">
+        <Bet Name="Head to Head Matchups" ID="6121529" IsLive="false">
+          <Odd Name="1" ID="34336151" Value="1.50" />
+          <Odd Name="2" ID="34336156" Value="2.69" />
+        </Bet>
+      </Match>
+      <Match Name="Felipe Massa - Daniil Kvyat" ID="586055" StartDate="2016-05-15T12:00:00" MatchType="PreMatch">
+        <Bet Name="Head to Head Matchups" ID="6121535" IsLive="false">
+          <Odd Name="1" ID="34336154" Value="1.75" />
+          <Odd Name="2" ID="34336165" Value="2.14" />
+        </Bet>
+      </Match>
+      <Match Name="Carlos Sainz - Daniil Kvyat" ID="586056" StartDate="2016-05-15T12:00:00" MatchType="PreMatch">
+        <Bet Name="Head to Head Matchups" ID="6121534" IsLive="false">
+          <Odd Name="1" ID="34336153" Value="1.50" />
+          <Odd Name="2" ID="34336161" Value="2.69" />
+        </Bet>
+      </Match>
+      <Match Name="Fernando Alonso - Jenson Button" ID="586057" StartDate="2016-05-15T12:00:00" MatchType="PreMatch">
+        <Bet Name="Head to Head Matchups" ID="6121537" IsLive="false">
+          <Odd Name="1" ID="34336160" Value="1.50" />
+          <Odd Name="2" ID="34336166" Value="2.69" />
+        </Bet>
+      </Match>
+      <Match Name="Daniel Ricciardo - Max Verstappen" ID="586058" StartDate="2016-05-15T12:00:00" MatchType="PreMatch">
+        <Bet Name="Head to Head Matchups" ID="6121531" IsLive="false">
+          <Odd Name="1" ID="34336152" Value="1.60" />
+          <Odd Name="2" ID="34336155" Value="2.42" />
+        </Bet>
+      </Match>
+      <Match Name="Sebastian Vettel - Kimi Raikkonen" ID="586059" StartDate="2016-05-15T12:00:00" MatchType="PreMatch">
+        <Bet Name="Head to Head Matchups" ID="6121532" IsLive="false">
+          <Odd Name="1" ID="34336150" Value="1.60" />
+          <Odd Name="2" ID="34336157" Value="2.42" />
+        </Bet>
+      </Match>
+      <Match Name="Max Verstappen - Kimi Raikkonen" ID="586060" StartDate="2016-05-15T12:00:00" MatchType="PreMatch">
+        <Bet Name="Head to Head Matchups" ID="6121533" IsLive="true">
+          <Odd Name="1" ID="34336158" Value="1.81" />
+        </Bet>
+      </Match>
+    </Event>
+  </Sport>
+</XmlSports>
