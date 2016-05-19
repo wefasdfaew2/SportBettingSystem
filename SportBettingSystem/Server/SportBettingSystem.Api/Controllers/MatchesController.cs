@@ -1,9 +1,11 @@
 ﻿namespace SportBettingSystem.Api.Controllers
 {
     using System.Web.Http;
+    using System.Web.Http.Cors;
 
     using Models.Matches;
 
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api/matches")]
     public class MatchesController : BaseController
     {

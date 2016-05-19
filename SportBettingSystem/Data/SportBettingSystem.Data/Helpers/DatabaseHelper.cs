@@ -4,7 +4,6 @@
     using System.Globalization;
     using System.Linq;
     using System.Threading;
-    using System.Transactions;
     using System.Xml.Linq;
 
     using Models;
@@ -40,11 +39,7 @@
             timer = new Timer(
                 (e) =>
                 {
-                    using (var transaction = new TransactionScope())
-                    {
-                        XmlToEntitiesParser();
-                        transaction.Complete();
-                    }
+                    XmlToEntitiesParser();
                 },
                 null,
                 0,
